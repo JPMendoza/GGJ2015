@@ -16,7 +16,6 @@ public class SpaceShipController : MonoBehaviour {
 		float moveVertical = Input.GetAxis("Vertical");
 
 		rigidbody2D.velocity = new Vector2 (moveHorizontal * maxSpeed, moveVertical * maxSpeed);
-	
 	}
 
 	// Update is called once per frame
@@ -26,6 +25,27 @@ public class SpaceShipController : MonoBehaviour {
 
 		} else {
 			beam.enabled = false;		
+		}
+
+		if (Input.GetKey("left")) {
+			if (rigidbody2D.rotation < 30){
+				rigidbody2D.rotation += 2;
+			}
+		}
+		else if (Input.GetKey("right")){
+			if (rigidbody2D.rotation > -30){
+				rigidbody2D.rotation -= 2;
+			}
+		}
+		//Get back to zero
+		else {
+			float rot = rigidbody2D.rotation;
+			if (rot < 0) {
+				rigidbody2D.rotation += 1;
+			}
+			else if (rot > 0) {
+				rigidbody2D.rotation -= 1;
+			}
 		}
 	
 	}
