@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Collectable.cs" />
      <Compile Include="Assets\GameController.cs" />
+     <Compile Include="Assets\GameOverController.cs" />
      <Compile Include="Assets\HumanController.cs" />
      <Compile Include="Assets\TractorBeam.cs" />
      <Compile Include="Assets\collide.cs" />

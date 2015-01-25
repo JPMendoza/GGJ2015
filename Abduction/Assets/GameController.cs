@@ -13,7 +13,8 @@ public class GameController : MonoBehaviour {
 		points = 0;
 		timeLeft = 10.0f;
 		gameOver = false;
-		if(audio) {audio.Play();}
+
+		DontDestroyOnLoad(transform.gameObject);
 	}
 
 	void OnGUI () {
@@ -42,7 +43,10 @@ public class GameController : MonoBehaviour {
 	}
 
 	public static void GameOver() {
-		gameOver = true;
+		if(!gameOver) {
+			Application.LoadLevel("GameOver");
+			gameOver = true;
+		}
 	}
 
 	public static void addPoints(int num) {
