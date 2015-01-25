@@ -9,6 +9,8 @@ public class Collectable : MonoBehaviour {
 	void Start () {
 		string nm = gameObject.name;
 
+		nm = nm.Replace("(Clone)", "");
+
 		switch (nm){
 			case "cow":
 				pointVal = 10;
@@ -38,11 +40,9 @@ public class Collectable : MonoBehaviour {
 				pointVal = 200;
 				rigidbody2D.mass = 5;
 				break;
-
-
 			default:
 				pointVal = 0;
-				break;
+			break;
 		}
 	}
 	

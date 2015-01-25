@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class GameController : MonoBehaviour {
 
@@ -10,6 +11,7 @@ public class GameController : MonoBehaviour {
 	private static float stgWidth;
 	private float nextActionTime; 
 	public float period;
+	public string[] prefabs;
 
 	// Use this for initialization
 	void Start () {
@@ -20,7 +22,16 @@ public class GameController : MonoBehaviour {
 
 		//Spawner variables
 		nextActionTime = 0.0f;
-		period = 1.0f;
+		period = 2.0f;
+		prefabs = new string[8];
+		prefabs[0] = "cow";
+		prefabs[1] = "farmer";
+		prefabs[2] = "civilian";
+		prefabs[3] = "cop";
+		prefabs[4] = "soldier";
+		prefabs[5] = "car";
+		prefabs[6] = "truck";
+		prefabs[7] = "tank";
 
 		DontDestroyOnLoad(transform.gameObject);
 	}
@@ -46,7 +57,7 @@ public class GameController : MonoBehaviour {
 			GameOver();
 		}
 
-		if (Time.time > nextActionTime) {
+		if (!gameOver && Time.time > nextActionTime) {
 			nextActionTime = Time.time + period;
 			float side = 1.0f;
 			float yVal = -2.0f;
@@ -59,9 +70,15 @@ public class GameController : MonoBehaviour {
 
 			float xVal = side * magnitude;
 
-			Debug.Log("X Position: " + xVal);
+			//Randomly chooose a prefab
+			int index = (int) Mathf.Floor(Random.value * prefabs.Length);
+			string pName = prefabs[index];
 
-			Instantiate(Resources.Load("cow"), new Vector3 (xVal, yVal, zVal), Quaternion.identity);
+
+			Debug.Log("X Position: " + xVal + " | Index: " + index);
+
+			//Instantiate the prefab at the chosen location
+			Instantiate(Resources.Load(pName), new Vector3 (xVal, yVal, zVal), Quaternion.identity);
 		}
 
 

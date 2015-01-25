@@ -36,12 +36,12 @@ public class SpaceShipController : MonoBehaviour {
 			beam.enabled = false;		
 		}
 
-		if (Input.GetKey("left")) {
+		if (Input.GetKey("left") || Input.GetKey("a")) {
 			if (rigidbody2D.rotation < 30){
 				rigidbody2D.rotation += 2;
 			}
 		}
-		else if (Input.GetKey("right")){
+		else if (Input.GetKey("right") || Input.GetKey("d")){
 			if (rigidbody2D.rotation > -30){
 				rigidbody2D.rotation -= 2;
 			}
