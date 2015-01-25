@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour {
 		points = 0;
 		timeLeft = 10.0f;
 		gameOver = false;
+		if(audio) {audio.Play();}
 	}
 
 	void OnGUI () {
