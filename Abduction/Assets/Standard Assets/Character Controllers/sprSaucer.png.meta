@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3b36d094b9c714ed9b625befa5c82899
+guid: 8dfefd2a79f654e6d9b5de3fc0716018
 TextureImporter:
   fileIDToRecycleName:
     21300000: sprSaucer_0
@@ -32,40 +32,10 @@ TextureImporter:
     21300054: sprSaucer_27
     21300056: sprSaucer_28
     21300058: sprSaucer_29
-    21300060: sprSaucer_30
-    21300062: sprSaucer_31
-    21300064: sprSaucer_32
-    21300066: sprSaucer_33
-    21300068: sprSaucer_34
-    21300070: sprSaucer_35
-    21300072: sprSaucer_36
-    21300074: sprSaucer_37
-    21300076: sprSaucer_38
-    21300078: sprSaucer_39
-    21300080: sprSaucer_40
-    21300082: sprSaucer_41
-    21300084: sprSaucer_42
-    21300086: sprSaucer_43
-    21300088: sprSaucer_44
-    21300090: sprSaucer_45
-    21300092: sprSaucer_46
-    21300094: sprSaucer_47
-    21300096: sprSaucer_48
-    21300098: sprSaucer_49
-    21300100: sprSaucer_50
-    21300102: sprSaucer_51
-    21300104: sprSaucer_52
-    21300106: sprSaucer_53
-    21300108: sprSaucer_54
-    21300110: sprSaucer_55
-    21300112: sprSaucer_56
-    21300114: sprSaucer_57
-    21300116: sprSaucer_58
-    21300118: sprSaucer_59
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -82,9 +52,9 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 1024
+  maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -166,8 +136,8 @@ TextureImporter:
     - name: sprSaucer_6
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 1748
+        x: 0
+        y: 1448
         width: 300
         height: 300
       alignment: 0
@@ -176,8 +146,8 @@ TextureImporter:
     - name: sprSaucer_7
       rect:
         serializedVersion: 2
-        x: 2100
-        y: 1748
+        x: 300
+        y: 1448
         width: 300
         height: 300
       alignment: 0
@@ -186,8 +156,8 @@ TextureImporter:
     - name: sprSaucer_8
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 1748
+        x: 600
+        y: 1448
         width: 300
         height: 300
       alignment: 0
@@ -196,8 +166,8 @@ TextureImporter:
     - name: sprSaucer_9
       rect:
         serializedVersion: 2
-        x: 2700
-        y: 1748
+        x: 900
+        y: 1448
         width: 300
         height: 300
       alignment: 0
@@ -206,8 +176,8 @@ TextureImporter:
     - name: sprSaucer_10
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 1748
+        x: 1200
+        y: 1448
         width: 300
         height: 300
       alignment: 0
@@ -216,8 +186,8 @@ TextureImporter:
     - name: sprSaucer_11
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 1748
+        x: 1500
+        y: 1448
         width: 300
         height: 300
       alignment: 0
@@ -226,8 +196,8 @@ TextureImporter:
     - name: sprSaucer_12
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 1748
+        x: 0
+        y: 1148
         width: 300
         height: 300
       alignment: 0
@@ -236,8 +206,8 @@ TextureImporter:
     - name: sprSaucer_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1448
+        x: 300
+        y: 1148
         width: 300
         height: 300
       alignment: 0
@@ -246,8 +216,8 @@ TextureImporter:
     - name: sprSaucer_14
       rect:
         serializedVersion: 2
-        x: 300
-        y: 1448
+        x: 600
+        y: 1148
         width: 300
         height: 300
       alignment: 0
@@ -256,8 +226,8 @@ TextureImporter:
     - name: sprSaucer_15
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1448
+        x: 900
+        y: 1148
         width: 300
         height: 300
       alignment: 0
@@ -266,8 +236,8 @@ TextureImporter:
     - name: sprSaucer_16
       rect:
         serializedVersion: 2
-        x: 900
-        y: 1448
+        x: 1200
+        y: 1148
         width: 300
         height: 300
       alignment: 0
@@ -276,8 +246,8 @@ TextureImporter:
     - name: sprSaucer_17
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1448
+        x: 1500
+        y: 1148
         width: 300
         height: 300
       alignment: 0
@@ -286,8 +256,8 @@ TextureImporter:
     - name: sprSaucer_18
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 1448
+        x: 0
+        y: 848
         width: 300
         height: 300
       alignment: 0
@@ -296,8 +266,8 @@ TextureImporter:
     - name: sprSaucer_19
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 1448
+        x: 300
+        y: 848
         width: 300
         height: 300
       alignment: 0
@@ -306,8 +276,8 @@ TextureImporter:
     - name: sprSaucer_20
       rect:
         serializedVersion: 2
-        x: 2100
-        y: 1448
+        x: 600
+        y: 848
         width: 300
         height: 300
       alignment: 0
@@ -316,8 +286,8 @@ TextureImporter:
     - name: sprSaucer_21
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 1448
+        x: 900
+        y: 848
         width: 300
         height: 300
       alignment: 0
@@ -326,8 +296,8 @@ TextureImporter:
     - name: sprSaucer_22
       rect:
         serializedVersion: 2
-        x: 2700
-        y: 1448
+        x: 1200
+        y: 848
         width: 300
         height: 300
       alignment: 0
@@ -336,8 +306,8 @@ TextureImporter:
     - name: sprSaucer_23
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 1448
+        x: 1500
+        y: 848
         width: 300
         height: 300
       alignment: 0
@@ -346,8 +316,8 @@ TextureImporter:
     - name: sprSaucer_24
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 1448
+        x: 0
+        y: 548
         width: 300
         height: 300
       alignment: 0
@@ -356,8 +326,8 @@ TextureImporter:
     - name: sprSaucer_25
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 1448
+        x: 300
+        y: 548
         width: 300
         height: 300
       alignment: 0
@@ -366,8 +336,8 @@ TextureImporter:
     - name: sprSaucer_26
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1148
+        x: 600
+        y: 548
         width: 300
         height: 300
       alignment: 0
@@ -376,8 +346,8 @@ TextureImporter:
     - name: sprSaucer_27
       rect:
         serializedVersion: 2
-        x: 300
-        y: 1148
+        x: 900
+        y: 548
         width: 300
         height: 300
       alignment: 0
@@ -386,8 +356,8 @@ TextureImporter:
     - name: sprSaucer_28
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1148
+        x: 1200
+        y: 548
         width: 300
         height: 300
       alignment: 0
@@ -396,307 +366,7 @@ TextureImporter:
     - name: sprSaucer_29
       rect:
         serializedVersion: 2
-        x: 900
-        y: 1148
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_30
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 1148
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_31
-      rect:
-        serializedVersion: 2
         x: 1500
-        y: 1148
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_32
-      rect:
-        serializedVersion: 2
-        x: 1800
-        y: 1148
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_33
-      rect:
-        serializedVersion: 2
-        x: 2100
-        y: 1148
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_34
-      rect:
-        serializedVersion: 2
-        x: 2400
-        y: 1148
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_35
-      rect:
-        serializedVersion: 2
-        x: 2700
-        y: 1148
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_36
-      rect:
-        serializedVersion: 2
-        x: 3000
-        y: 1148
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_37
-      rect:
-        serializedVersion: 2
-        x: 3300
-        y: 1148
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_38
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 848
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_39
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 848
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_40
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 848
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_41
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 848
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_42
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 848
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_43
-      rect:
-        serializedVersion: 2
-        x: 1500
-        y: 848
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_44
-      rect:
-        serializedVersion: 2
-        x: 1800
-        y: 848
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_45
-      rect:
-        serializedVersion: 2
-        x: 2100
-        y: 848
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_46
-      rect:
-        serializedVersion: 2
-        x: 2400
-        y: 848
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_47
-      rect:
-        serializedVersion: 2
-        x: 2700
-        y: 848
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_48
-      rect:
-        serializedVersion: 2
-        x: 3000
-        y: 848
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_49
-      rect:
-        serializedVersion: 2
-        x: 3300
-        y: 848
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_50
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 548
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_51
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 548
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_52
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 548
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_53
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 548
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_54
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 548
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_55
-      rect:
-        serializedVersion: 2
-        x: 1500
-        y: 548
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_56
-      rect:
-        serializedVersion: 2
-        x: 1800
-        y: 548
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_57
-      rect:
-        serializedVersion: 2
-        x: 2100
-        y: 548
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_58
-      rect:
-        serializedVersion: 2
-        x: 2400
-        y: 548
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sprSaucer_59
-      rect:
-        serializedVersion: 2
-        x: 2700
         y: 548
         width: 300
         height: 300
