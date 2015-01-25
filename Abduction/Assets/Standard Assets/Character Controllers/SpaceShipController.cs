@@ -20,6 +20,15 @@ public class SpaceShipController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		//Don't let the ship go below 0 on the Y axis
+		Vector3 t = transform.position;
+
+		if (t.y <= 0) {
+			Debug.Log("Flying too low!");
+			transform.position = new Vector3 (t.x, 0.1f, t.z);
+		}
+
+
 		if (Input.GetKey (KeyCode.Space)) {
 			beam.enabled = true;
 
