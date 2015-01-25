@@ -7,12 +7,20 @@ public class GameController : MonoBehaviour {
 	private static int points;
 	private static float timeLeft;
 	private static bool gameOver;
+	private static float stgWidth;
+	private float nextActionTime; 
+	public float period;
 
 	// Use this for initialization
 	void Start () {
 		points = 0;
-		timeLeft = 10.0f;
+		timeLeft = 30.0f;
 		gameOver = false;
+		stgWidth = 20.0f;
+
+		//Spawner variables
+		nextActionTime = 0.0f;
+		period = 1.0f;
 
 		DontDestroyOnLoad(transform.gameObject);
 	}
@@ -33,12 +41,30 @@ public class GameController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		timeLeft -= Time.deltaTime;
-
-
 		if (timeLeft <= 0){
 			Debug.Log("Game Over!!!");
 			GameOver();
 		}
+
+		if (Time.time > nextActionTime) {
+			nextActionTime = Time.time + period;
+			float side = 1.0f;
+			float yVal = -2.0f;
+			float zVal = 0.0f;
+			float magnitude = Random.value * stgWidth;
+			//Spawn prefabs within range
+			if(Random.value < 0.5f){
+				side *= -1;
+			}
+
+			float xVal = side * magnitude;
+
+			Debug.Log("X Position: " + xVal);
+
+			Instantiate(Resources.Load("cow"), new Vector3 (xVal, yVal, zVal), Quaternion.identity);
+		}
+
+
 	
 	}
 
