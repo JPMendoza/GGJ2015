@@ -15,10 +15,7 @@ public class GameController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		points = 0;
-		timeLeft = 30.0f;
-		gameOver = false;
-		stgWidth = 20.0f;
+		SetLevel();
 
 		//Spawner variables
 		nextActionTime = 0.0f;
@@ -36,9 +33,24 @@ public class GameController : MonoBehaviour {
 		DontDestroyOnLoad(transform.gameObject);
 	}
 
+	//Set the game variables
+	void SetLevel () {
+		points = 0;
+		timeLeft = 30.0f;
+		gameOver = false;
+		stgWidth = 20.0f;
+	}
+
 	void OnGUI () {
 		if (gameOver) {
 			GUI.Label(new Rect(60,10,100,30), "GAME OVER");
+
+			//Reset Button
+			if (GUI.Button (new Rect(40,150,350,100), "Try Again?")){
+				SetLevel();
+				Application.LoadLevel("scene1");
+            }
+
 		}
 
 		else {
@@ -74,8 +86,13 @@ public class GameController : MonoBehaviour {
 			int index = (int) Mathf.Floor(Random.value * prefabs.Length);
 			string pName = prefabs[index];
 
+			//Lower the chance it could be a vehicle
+			if(index >= 5 && Random.value < 0.8f){
+				index -= 5; //Make it a lighter, lower-valued item (cow, farmer, civilian)
+			}
 
-			Debug.Log("X Position: " + xVal + " | Index: " + index);
+
+			Debug.Log("X Position: " + xVal + " | Selected: " + pName);
 
 			//Instantiate the prefab at the chosen location
 			Instantiate(Resources.Load(pName), new Vector3 (xVal, yVal, zVal), Quaternion.identity);
