@@ -16,8 +16,9 @@ public class collide : MonoBehaviour {
 		if (beam.enabled) {
 			RaycastHit2D hit = Physics2D.Raycast (transform.position, -Vector2.up, 5.5f);
 			if (hit.collider != null) {
-				if (hit.collider.tag != "Ground")
+				if (hit.collider.tag != "Ground") {
 					hit.collider.rigidbody2D.AddForce(Vector2.up,ForceMode2D.Impulse);
+				}
 				Debug.Log("hit");
 			}
 		}
